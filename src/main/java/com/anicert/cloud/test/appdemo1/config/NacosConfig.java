@@ -1,11 +1,11 @@
 package com.anicert.cloud.test.appdemo1.config;
 
 import org.springframework.beans.factory.annotation.Value;
-//import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-//@RefreshScope
+@RefreshScope
 public class NacosConfig {
 
     @Value("${test.test1}")
